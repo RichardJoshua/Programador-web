@@ -1,0 +1,8 @@
+Tarea Unidad 2 HTML
+Armar el diseño de un CV utilizando las etiquetas aprendidas en la unidad.
+Se adjunta una imagen a modo de referencia.
+
+Subir a un repositorio publico en GitHub y compartir la URL del mismo.
+
+ 
+refrencia_cv.jpg refrencia_cv.jpg
