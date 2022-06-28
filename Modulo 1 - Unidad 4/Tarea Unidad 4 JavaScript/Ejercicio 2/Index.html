@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Nro 2</title>
+</head>
+<body>
+    <script>
+        /*
+        Ejercicio Nro 2 = Haciendo uso de los bucles, recorrer un array de números y determinar cual es el mayor
+        */
+
+        /*Defino las variables a usar*/
+        var i = 0;
+        var vector = [];
+        var f;
+        var max;
+        
+        /*Ingreso de valores desde el prompt*/
+        while (i!=10){
+            valor=prompt('Ingrese un numero Natural '+ i +' de 10 :','');
+            valor=parseInt(valor);
+            vector[i] = valor;
+            if (!i) {
+                max = valor;
+            } else if (valor > max){
+                    max = valor;
+            }
+            i=i+1;
+        }
+
+        /* Muestro los valores ingresados desde el prompt*/
+        document.write("Los valores ingresados son: ");        
+        for(f=0;f<10;f++){
+            document.write(vector[f]+" ");
+        }
+
+        document.write('<br>');
+        /* Muestro el valor maximo*/
+        document.write("El mayor es: "+ max);
+
+    </script>
+</body>
+</html>
