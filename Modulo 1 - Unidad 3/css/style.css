@@ -68,6 +68,7 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 0%;
+    padding-bottom: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,6 +80,38 @@ p {
     width: 24%;
     height: 1500px;
     min-width: 300px; 
+    padding: 30px;
+}
+
+.lateral h3 {
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.lateral h4 {
+
+    line-height: 1;
+    border-bottom: 2px solid #ffff;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    /*margin-left: 10px;*/
+}
+
+.lateral p {
+
+    color: white;
+    margin-left: 0px !important;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
 }
 
 .principal{
@@ -86,5 +119,6 @@ p {
     background-color: rgb(247, 243, 243);
     width: 76%;
     height: 1500px;
+    padding: 40px;
     /* min-width: 500px; */
 }
