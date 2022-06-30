@@ -1,4 +1,4 @@
-<script>
+
 
 /*
 Utilizando lo aprendido escribir el código necesario para que dada una distancia determine 
@@ -10,6 +10,9 @@ el medio de transporte apropiado de acuerdo a las siguientes reglas:
 30000 a 100000 metros = auto
 +100000 = avión
 */
+
+
+
 var num;
 
 num=prompt('Ingrese la distancia a recorrer:','');
@@ -30,4 +33,3 @@ if (num >= 0 && num <= 1000){
                 }else{
                     document.write('Los metros ingresados no es valido!!! ');
     }
-</script>
