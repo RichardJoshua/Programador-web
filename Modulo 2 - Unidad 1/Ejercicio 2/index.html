@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <!-- Programar un contador de caracteres para un textarea. -->
+    <div class="contenedor">
+        <h3>Programando contador de caracteres</h3>
+        <div class="text_area">
+        </div>
+        <p><textarea name="mensaje" placeholder="Ingrese caracteres, para su conteo!!!"></textarea></p>
+                
+        <script>
+            // CSS
+            var cont = 0;
+            function manejador(elEvento) {
+                var evento = elEvento || window.event;
+                var caracter = evento.charCode || evento.keyCode || evento.onKeyPress;
+                //console.log("Pasa!!!");
+                console.log('Cantidad de veces onKeyPress =' + cont); 
+                cont ++;
+              }
+              
+              document.onkeypress = manejador;  
+        
+
+        </script>
+    </div>
+    
+</body>
+</html>
