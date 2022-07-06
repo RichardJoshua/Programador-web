@@ -1,0 +1,27 @@
+
+.boton {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+#btn_rojo {
+    background: red;
+}
+
+#btn_verde {
+    background: greenyellow;
+}
+
+#btn_azul {
+    background: blue;
+}
+
+.cuadrado.borde {
+    border: 2px solid black;
+}
+
+
+
+

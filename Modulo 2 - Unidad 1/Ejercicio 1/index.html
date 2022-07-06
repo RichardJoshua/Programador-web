@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <!-- 
+        Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado deberá tener un color distinto.
+    -->
+    
+    <h3>Agregar color al Background - clases de CSS</h3>
+    <div class="cuadrado">
+    </div>
+    <p>
+        <button class="boton" id="btn_rojo">Rojo</button>
+        &nbsp;
+        <button class="boton" id="btn_verde">verde</button>
+        &nbsp;
+        <button class="boton" id="btn_azul">azul</button>
+    </p>
+    
+    <script>
+        // CSS
+        document.getElementById("btn_rojo").onclick = 
+        function () {
+            //document.getElementById("titulo").innerHTML = nombre + Apellido;
+            document.body.style.backgroundColor = "red";
+        }
+
+        document.getElementById("btn_verde").onclick = 
+        function () {
+            //document.getElementById("titulo").innerHTML = nombre + Apellido;
+            document.body.style.backgroundColor = "greenyellow";
+        }
+
+        document.getElementById("btn_azul").onclick = 
+        function () {
+            //document.getElementById("titulo").innerHTML = nombre + Apellido;
+            document.body.style.backgroundColor = "blue";
+        }
+       
+
+    </script>
+    
+
+</body>
+</html>
